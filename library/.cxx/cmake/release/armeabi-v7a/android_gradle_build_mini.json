@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "E:\\GitHub\\YuvUtils\\library\\cpp\\CMakeLists.txt",
+    "E:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "yuv_shared-Release-armeabi-v7a": {
+      "artifactName": "yuv_shared",
+      "buildCommand": "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\armeabi-v7a --target yuv_shared",
+      "abi": "armeabi-v7a",
+      "output": "E:\\GitHub\\YuvUtils\\library\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libyuv.so"
+    },
+    "yuv-Release-armeabi-v7a": {
+      "artifactName": "yuv",
+      "buildCommand": "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\armeabi-v7a --target yuv",
+      "abi": "armeabi-v7a",
+      "output": "E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\armeabi-v7a\\libyuv\\libyuv.a"
+    },
+    "yuv-util-Release-armeabi-v7a": {
+      "artifactName": "yuv-util",
+      "buildCommand": "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\armeabi-v7a --target yuv-util",
+      "abi": "armeabi-v7a",
+      "output": "E:\\GitHub\\YuvUtils\\library\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libyuv-util.so"
+    }
+  }
+}

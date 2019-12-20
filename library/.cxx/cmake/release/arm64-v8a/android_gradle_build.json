@@ -1,0 +1,618 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/GitHub/YuvUtils/library/cpp/CMakeLists.txt",
+		"E:/GitHub/YuvUtils/library/cpp/libyuv/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"yuv-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuv",
+			"buildCommand" : "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\arm64-v8a --target yuv",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_from.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/video_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a/libyuv/libyuv.a",
+			"toolchain" : "534625017"
+		},
+		"yuv-util-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuv-util",
+			"buildCommand" : "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\arm64-v8a --target yuv-util",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_util_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/yun_utils.cpp",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "E:/GitHub/YuvUtils/library/build/intermediates/cmake/release/obj/arm64-v8a/libyuv-util.so",
+			"toolchain" : "534625017"
+		},
+		"yuv_shared-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuv_shared",
+			"buildCommand" : "E:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\GitHub\\YuvUtils\\library\\.cxx\\cmake\\release\\arm64-v8a --target yuv_shared",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/compare_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_from.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/row_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_any.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_dspr2.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/scale_win.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyuv_shared_EXPORTS -IE:\\GitHub\\YuvUtils\\library\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/GitHub/YuvUtils/library/cpp/libyuv/source/video_common.cc",
+					"workingDirectory" : "E:/GitHub/YuvUtils/library/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "E:/GitHub/YuvUtils/library/build/intermediates/cmake/release/obj/arm64-v8a/libyuv.so",
+			"toolchain" : "534625017"
+		}
+	},
+	"toolchains" : 
+	{
+		"534625017" : 
+		{
+			"cCompilerExecutable" : "E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Android/SDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
